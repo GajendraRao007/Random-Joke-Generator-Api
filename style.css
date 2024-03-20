@@ -7,7 +7,7 @@ body{
 }
 
 #main-box{
-    margin: 100px auto;
+    margin: 70px auto;
     width: 500px;
     height: 400px;
     background-color: black;
@@ -16,7 +16,7 @@ body{
 
 #joke-btn{
     display: block;
-    margin: 200px auto;
+    margin: 0px auto;
     padding: 15px 30px;
     border-radius: 50px;
     font-size: 15px;
@@ -24,6 +24,8 @@ body{
     border: none;
     font-family: "Fredoka", sans-serif;
     cursor: pointer;
+    position: relative;
+    top: -150px;
 }
 
 #joke-btn:hover{
@@ -43,4 +45,8 @@ img{
 #display-jokes{
     margin: 50px auto;
     color: white;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 20px;
+    
 }
